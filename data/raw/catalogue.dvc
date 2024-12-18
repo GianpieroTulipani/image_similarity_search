@@ -1,0 +1,6 @@
+outs:
+- md5: 794c65493a16d301ee1319afe5818900.dir
+  size: 10024878904
+  nfiles: 7
+  hash: md5
+  path: catalogue

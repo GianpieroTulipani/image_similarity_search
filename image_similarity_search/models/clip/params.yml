@@ -1,0 +1,16 @@
+lr: 5e-6
+weight_decay: 0.4
+eps: 1e-6
+betas:
+  - 0.9
+  - 0.98
+epochs: 20
+batch_size: 64
+name: "CLIP"
+imgsz: 224 # image resize
+seed: 1337 # seed for reproducibility
+patience: 5 # early stopper num patiance epochs
+save_period: -1 # how frequently trigger checkpointing
+optimizer: "Adam" # torch optimizer
+metric: "val/loss" # fitness metric
+strategy: "min" # min or max fitness metric

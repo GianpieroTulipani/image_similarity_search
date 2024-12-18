@@ -1,0 +1,25 @@
+# Common
+epochs: 20
+batch_size: 64
+lr: 0.001
+
+# Checkpointing
+name: "cnn/autoencoder"
+save_period: -1 # how frequently trigger checkpointing
+
+# Reproducibility
+seed: 1337
+deterministic: true
+
+# Early stoppint
+mode: "max" # min or max fitness metric
+monitor: "fitness" # fitness metric
+patience: 5 # early stopper num patiance epochs
+
+# Optimizer
+optimizer: "AdamW"
+weight_decay: 0.4
+
+# Specific
+emb_dim: 512
+imgsz: 256 # image resize

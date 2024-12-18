@@ -1,0 +1,5 @@
+outs:
+- md5: 3ba34e387b24dfe590eeb1ae6a8a122b
+  size: 353976522
+  hash: md5
+  path: ViT-B-32.pt

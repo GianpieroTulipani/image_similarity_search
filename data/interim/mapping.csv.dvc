@@ -1,0 +1,6 @@
+outs:
+- md5: f1dc08827e1d6c89c6f4a701031ca793
+  size: 3389
+  hash: md5
+  path: mapping.csv
+  isexec: true
